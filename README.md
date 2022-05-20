@@ -7,10 +7,8 @@
 <aside>
 ⚙ 보고서 원본: [https://famous-week-ed7.notion.site/2-3-6eabb3d91b9847f985c70fd97400a8b2](https://www.notion.so/2-3-6eabb3d91b9847f985c70fd97400a8b2)
 
-</aside>
-
-> 목차
-> 
+</aside>  
+  
 
 # 자료구조
 
