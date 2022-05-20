@@ -9,6 +9,7 @@
 
 </aside>  
   
+    
 
 # 자료구조
 
@@ -58,6 +59,7 @@ node_count = 5
 edge_list = [(1, 2, 7), (1, 3, 4), (1, 4, 6), (1, 5, 1), (3, 2, 2), (3, 4, 5), (4, 2, 3), (5, 4, 1)]
 tree = Tree(node_count=node_count, edge_list=[Edge(*edge) for edge in edge_list])
 ```
+  
 
 # 구현
 
@@ -102,6 +104,7 @@ visited.append(edge.end)
 costs[edge.end] = cost
 ```
 
+  
 # 결과
 
 ## 결과1
@@ -124,6 +127,7 @@ dijkstra(tree1)
 - selected edge는 해당 단계에서 선택된 edge
 - visited는 해당 단계가 끝난 뒤 방문한 노드들의 리스트
 - costs는 start_node에서 해당 노드까지의 최소비용 { 노드번호: 비용 }
+  
 
 ## 결과2
 
@@ -140,6 +144,7 @@ dijkstra(tree2)
 ```
 
 ![Untitled](imgs/Untitled%204.png)
+  
 
 ## 결과3
 
